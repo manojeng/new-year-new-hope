@@ -83,6 +83,7 @@ margin-bottom: 32px;
 
 .failor-content{
     width: 416px;    
+    margin-left: 87px;
 }
 
 .last-year-failor  p{
@@ -118,7 +119,7 @@ margin-bottom: 32px;
     width: 1141px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .skill-title{
@@ -144,7 +145,8 @@ margin-bottom: 32px;
     border-radius: 10px;
     /* background-image: url('/images/watch.png'); */
     /* background: linear-gradient(90deg, #01325b 0%, rgba(3, 117, 210, 0.1) 100%), url('/images/watch.png'); */
-    background: linear-gradient(to right, #1b05e0 0%, rgba(3, 117, 210, 0) 100%), url('/images/watch.png');
+    background: linear-gradient(to right, #047dee 0%, rgba(216, 222, 226, 0) 100%), url('/images/watch.png');
+    background-blend-mode: color;
     background-blend-mode: overlay;
     width: 1100px;
     background-repeat: no-repeat;
@@ -172,4 +174,59 @@ margin-bottom: 32px;
     height: 64px;
     border-radius: 5px;
     border: none;
+}
+
+/* footer style */
+.footer-container{
+    background: #151414;
+    display: flex;
+    color: #F8F8F8;
+    padding: 130px 231px;
+    justify-content: space-around;
+}
+
+.future{
+    width: 485px;
+
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer-content{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.email{
+    margin-bottom: 16px;
+}
+.phone{
+    margin-bottom: 32px;
+}
+.icon-container{
+    display: flex;
+    justify-content: left;
+}
+.icon-container>img{
+    margin-right: 10px;
+}
+
+.subscribe{
+    width: 220px;
+}
+
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+#input-email{
+    width: 220px;
+    height: 34px;
+    margin-bottom: 18px;
 }
